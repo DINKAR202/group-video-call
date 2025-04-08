@@ -1,4 +1,4 @@
-# Multi-User Video Chat App
+# Multi-User Video Call App
 
 A real-time video calling app using **React**, **Socket.io**, and **WebRTC (simple-peer)**. Multiple users can join the same room and see each other's video streams instantly.
 
