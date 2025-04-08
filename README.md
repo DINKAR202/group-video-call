@@ -2,6 +2,8 @@
 
 A real-time video calling app using **React**, **Socket.io**, and **WebRTC (simple-peer)**. Multiple users can join the same room and see each other's video streams instantly.
 
+And i can develop more user friendly and easy to browse.
+
 ---
 
 ## Project Structure
@@ -17,6 +19,7 @@ A real-time video calling app using **React**, **Socket.io**, and **WebRTC (simp
 - Auto connection of new users to existing ones
 - Lightweight and easy to deploy
 
+
 ---
 
 ## Getting Started
@@ -24,7 +27,7 @@ A real-time video calling app using **React**, **Socket.io**, and **WebRTC (simp
 ###  Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/video-chat-app.git
+git clone https://github.com/DINKAR202/group-video-call.git
 cd video-chat-app
 
 cd server
