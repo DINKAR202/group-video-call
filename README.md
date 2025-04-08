@@ -28,7 +28,7 @@ And i can develop more user friendly and easy to browse.
 
 ```bash
 git clone https://github.com/DINKAR202/group-video-call.git
-cd video-chat-app
+cd group-video-call
 
 cd server
 npm install
