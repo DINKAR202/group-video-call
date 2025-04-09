@@ -16,14 +16,14 @@ const Room = () => {
     navigator.mediaDevices
       .getUserMedia({ video: true, audio: true })
       .then((stream) => {
-        console.log("✅ Got stream:", stream);
+        console.log("Got stream:", stream);
         setStream(stream);
         if (userVideo.current) userVideo.current.srcObject = stream;
 
         socket.emit("join-room", roomId);
 
         socket.on("all-users", (users) => {
-          console.log("📥 Users in room:", users);
+          console.log("Users in room:", users);
           const tempPeers = [];
           users.forEach((userID) => {
             const peer = createPeer(userID, socket.id, stream);
